@@ -7,12 +7,12 @@ def load_library
     angel: {
     :english => "O:)",
     :japanese => "☜(⌒▽⌒)☞"
-  }},
+  },
 
 {angry: {
     :english => ">:(",
     :japanese => "ヽ(ｏ`皿′ｏ)ﾉ"
-  }},
+  },
   bored: {
     :english => ":O",
     :japanese => "(ΘεΘ;)"
@@ -66,5 +66,3 @@ end
 def get_english_meaning
   # code goes here
 end
-
-puts get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
