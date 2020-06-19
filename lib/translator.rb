@@ -1,62 +1,19 @@
 # require modules here
 
-def load_library
-  # code goes here
-  [
-  {
-    angel => {
-    :english => "O:)",
-    :japanese => "☜(⌒▽⌒)☞"
-  }},
+def load_library(yml)
+  emoticons = YAML.load_file(yml) #declare emoticons as variable for YAML file path
 
-{angry => {
-    :english => ">:(",
-    :japanese => "ヽ(ｏ`皿′ｏ)ﾉ"
-  }},
-  {bored => {
-    :english => ":O",
-    :japanese => "(ΘεΘ;)"
-  }},
-  {confused => {
-    :english => "%)",
-    :japanese => "(゜.゜)"
-  }},
-  {embarrassed => {
-    :english => ":$",
-    :japanese => "(#^.^#)"
-  }},
-  {fish => {
-    :english => "><>",
-    :japanese => ">゜))))彡"
-  }},
-  {glasses => {
-    :english => "8D",
-    :japanese => "(^0_0^)"
-  }},
-  {grinning => {
-    :english => "=D",
-    :japanese => "(￣ー￣)"
-  }},
-  {happy => {
-    :english => ":)",
-    :japanese => "(＾ｖ＾)"
-  }},
-  {kiss => {
-    :english => ":*",
-    :japanese => "(*^3^)/~☆"
-  }},
-  {sad => {
-    :english => ":'(",
-    :japanese => "(Ｔ▽Ｔ)"
-  }},
-  {surprised => {
-    :english => ":o",
-    :japanese => "o_O"
-  }},
-  {wink => {
-    :english => ";)",
-    :japanese => "(^_-)"
-  }}]
+  new_hash = {} #method needs to create new hash
+  
+  emoticons.each do |emotion, emoticon| #iterates over emoticons, emotion as key and emoticon as value
+
+    new_hash[emotion] = {   #update empty new hash as
+      :english => emoticon[0], #english key accesses first element of emoticon array
+      :japanese => emoticon[1] #japanese key accesses second element of emoticon array
+    }
+
+  end
+  new_hash #must return new hash
 end
 
 def get_japanese_emoticon
