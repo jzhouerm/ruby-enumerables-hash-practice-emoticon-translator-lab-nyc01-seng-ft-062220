@@ -7,16 +7,16 @@ def load_library
     angel: {
     :english => "O:)",
     :japanese => "☜(⌒▽⌒)☞"
-  },
+  }},
 
 {angry: {
     :english => ">:(",
     :japanese => "ヽ(ｏ`皿′ｏ)ﾉ"
-  },
-  bored: {
+  }},
+  {bored: {
     :english => ":O",
     :japanese => "(ΘεΘ;)"
-  },
+  }},
   {confused: {
     :english => "%)",
     :japanese => "(゜.゜)"
