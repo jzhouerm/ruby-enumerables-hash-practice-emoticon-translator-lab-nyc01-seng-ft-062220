@@ -4,7 +4,7 @@ def load_library
   # code goes here
   [
   {
-    angel: {
+    angel => {
     :english => "O:)",
     :japanese => "☜(⌒▽⌒)☞"
   }},
