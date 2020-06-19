@@ -9,51 +9,51 @@ def load_library
     :japanese => "☜(⌒▽⌒)☞"
   }},
 
-{angry: {
+{angry => {
     :english => ">:(",
     :japanese => "ヽ(ｏ`皿′ｏ)ﾉ"
   }},
-  {bored: {
+  {bored => {
     :english => ":O",
     :japanese => "(ΘεΘ;)"
   }},
-  {confused: {
+  {confused => {
     :english => "%)",
     :japanese => "(゜.゜)"
   }},
-  {embarrassed: {
+  {embarrassed => {
     :english => ":$",
     :japanese => "(#^.^#)"
   }},
-  {fish: {
+  {fish => {
     :english => "><>",
     :japanese => ">゜))))彡"
   }},
-  {glasses: {
+  {glasses => {
     :english => "8D",
     :japanese => "(^0_0^)"
   }},
-  {grinning: {
+  {grinning => {
     :english => "=D",
     :japanese => "(￣ー￣)"
   }},
-  {happy: {
+  {happy => {
     :english => ":)",
     :japanese => "(＾ｖ＾)"
   }},
-  {kiss: {
+  {kiss => {
     :english => ":*",
     :japanese => "(*^3^)/~☆"
   }},
-  {sad: {
+  {sad => {
     :english => ":'(",
     :japanese => "(Ｔ▽Ｔ)"
   }},
-  {surprised: {
+  {surprised => {
     :english => ":o",
     :japanese => "o_O"
   }},
-  {wink: {
+  {wink => {
     :english => ";)",
     :japanese => "(^_-)"
   }}]
